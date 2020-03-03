@@ -2,10 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-
 import i18n from '@/i18n'
+import myCharts from 'echarts'
 
 Vue.config.productionTip = false
 
@@ -13,6 +14,8 @@ Vue.use(ElementUI, {
 	size: 'default',
 	i18n: (key, value) => i18n.t(key, value)
 })
+
+Vue.prototype.$echarts = myCharts
 
 new Vue({
 	i18n,

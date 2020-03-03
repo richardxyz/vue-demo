@@ -22,6 +22,22 @@ const routes = [{
 				title: '首页',
 				isTab: true
 			}
+		}, {
+			path: '/china',
+			component: () => import('@/views/modules/echarts/China'),
+			name: 'China',
+			meta: {
+				title: 'echarts',
+				isTab: true
+			}
+		}, {
+			path: '/chengdu',
+			component: () => import('@/views/modules/echarts/ChengDu'),
+			name: 'ChengDu',
+			meta: {
+				title: 'echarts',
+				isTab: true
+			}
 		}, ]
 	},
 	// {

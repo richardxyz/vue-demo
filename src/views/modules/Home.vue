@@ -1,6 +1,6 @@
 <template>
 	<div class="home">
-		t
+		<div style="height: 1000px;"></div>
 	</div>
 </template>
 

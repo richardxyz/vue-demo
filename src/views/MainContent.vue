@@ -9,7 +9,7 @@
 
 <style scoped>
 	.mainContent {
-		background-color: aqua;
+		background-color: lightblue;
 		position: absolute;
 		top: 50px;
 		left: 250px;
