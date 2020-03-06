@@ -38,7 +38,15 @@ const routes = [{
 				title: 'echarts',
 				isTab: true
 			}
-		}, ]
+		},{
+			path: '/zhongguo',
+			component: () => import('@/views/modules/echarts/ZhongGuo'),
+			name: 'zhongguo',
+			meta: {
+				title: 'echarts',
+				isTab: true
+			}
+		} ]
 	},
 	// {
 	//   path: '/',

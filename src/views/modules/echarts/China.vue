@@ -149,7 +149,7 @@
 							max: 1,
 						},
 						nameMap: {
-							// 自定义地区的名称映射
+							// 自定义地区的名称映射 ？
 							'China': '中国'
 						},
 						// 选中模式，表示是否支持多个选中，默认关闭，支持布尔值和字符串，字符串取值可选'single'表示单选，或者'multiple'表示多选。
@@ -214,12 +214,13 @@
 						//图形是否不响应和触发鼠标事件，默认为 false，即响应和触发鼠标事件。
 						silent: false,
 					},
-					series: [{
-							type: 'scatter',
-							// 对应上方配置
-							coordinateSystem: 'geo'
-						},
+					series: [
+							
+						
 						{
+							// type: 'scatter',
+							// 对应上方配置
+							coordinateSystem: 'geo',
 							name: '启动次数', // 浮动框的标题
 							type: 'map',
 							geoIndex: 0,
